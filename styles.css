@@ -430,4 +430,7 @@ background: white;
   background: whitesmoke;
   height:30vh;
 }
+   .none{
+      display:none;
+      }
 }
