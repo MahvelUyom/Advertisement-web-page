@@ -1,0 +1,433 @@
+*{
+   font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+   top:0; left:0;
+    width:100%;
+     background: linear-gradient(to right, #FF70AF,#5F48F5);
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem 9%;
+    display: flex;
+    color: darkgrey;
+    opacity: 95%;
+    align-items: center;
+ justify-content: space-between;
+   z-index: 1000;
+    
+}
+
+header .logo{
+    font-size: 2rem;
+    color:white;
+    
+    margin-right: 5rem;
+    margin-left:0rem;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    color:white;
+    font-weight: 600;
+}
+
+header .navbar a:hover{
+    color:var(--pink);
+}
+
+header input:not(.search){
+    display: none;
+}
+
+header label{
+    font-size: 3rem;
+    color:white;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+ #home{
+  width:100%;
+  height:100vh;
+   background: linear-gradient(to right, #FF70AF,#5F48F5);
+   padding-top:50%;
+   padding-left: 3rem;
+}
+#home h3{
+  font-size: 3rem;
+}
+
+#home p{
+  font-size: 2rem;
+  margin-top: 1.1rem;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+#home button{
+  width:15rem;
+  height:3rem;
+  margin-top: 1.1rem;
+  margin-bottom: 2rem;
+  border-radius: 30px;
+  color:#FF70AF;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border:none;
+}
+
+img{
+  background-size: cover;
+  width:100%;
+  margin-top: 1.1rem;
+}
+
+section{
+  
+  margin-top: 6rem;
+}
+
+#services{
+  text-align: center;
+  margin-top: 5rem;
+ 
+}
+
+
+#services h1{
+  font-size: 3rem;
+}
+
+section .services{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.services img{
+  width:150px;
+  height:150px;
+}
+
+.service{
+  margin:2rem;
+  
+  
+      border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    margin:1.5rem;
+    padding:3rem 2rem;
+    
+    text-align: center;
+    transition: .2s linear;
+}
+
+
+.services .service h4{
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+.services .service p{
+  font-size: 1.8rem;
+  line-height:2.5rem;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+
+
+
+.why{
+  text-align: center;
+  padding:2rem;
+  
+}
+.whys img{
+  width:100%;
+  height: 200px;
+}
+
+.whys li{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  margin-top:1.8rem;
+}
+.whys h1{
+  margin:2rem;
+  letter-spacing: 1px;
+  font-size:2.3rem;
+}
+.whys h4{
+  font-size:2rem;
+  margin-top: 1.8rem;
+}
+
+.testimony{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.testimony h1{
+  font-size:3rem;
+}
+.testimony img{
+  width:120px;
+  height:120px;
+  border-radius: 50%;
+}
+.cover{
+  margin:2rem;
+  border-radius: .5rem;
+    border:rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    margin:1.5rem;
+    padding:3rem 2rem;
+    text-align: center;
+    transition: .2s linear;
+}
+.cover p{
+  font-size: 1.8rem;
+  line-height:2.5rem;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+.pup{
+  width: 100%;
+  height:.2rem;
+ background: linear-gradient(to right, #FF70AF,#5F48F5);
+}
+.social{
+  text-align: center;
+  padding-top: 10rem;
+  background: whitesmoke;
+  height:30vh;
+}
+.social h1{
+  margin:2rem;
+  letter-spacing: 1px;
+  font-size:2.3rem;
+}
+.socials{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  width:100%;
+}
+.socials img{
+  width:4rem;
+  height:4rem;
+  
+}
+
+
+
+
+
+.footer{
+    padding-top: 3rem;
+    margin-top: 5rem;
+    background: linear-gradient(to right, #FF70AF,#5F48F5);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box{
+    flex:1 1 25rem;
+    margin:1.1rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding:1rem 0;
+    color:#fff;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.footer .box-container .box p{
+    font-size: 2rem;
+    padding:.5rem 0;
+    color:#eee;
+}
+.footer .box-container .box .info p{
+  font-size: 1.5rem;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding:.5rem 0;
+    color:#eee;
+}
+
+.footer .box-container .box a:hover{
+    text-decoration: underline;
+}
+
+.footer .box-container .box .info{
+    display: flex;
+    align-items: center;
+}
+
+.footer .box-container .box .info i{
+    margin:.5rem 0;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background:#fff;
+    color:var(--pink);
+    font-size: 1.5rem;
+    height:4.5rem;
+    width:4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+   header label{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar{
+        position: absolute;
+        top:100%; left: 0;
+        width:100%;
+        height:30vh;
+   background: linear-gradient(to right, #FF70AF,#5F48F5);
+        padding:1rem 2rem;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: .2s linear;
+    }
+
+   header .navbar a{
+        display: block;
+        margin:2rem 0rem;
+        font-size: 2rem;
+    }
+
+    header input:checked ~ .navbar{
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    header input:checked ~ label::before{
+        content:'\f00d';
+    }
+    
+    
+
+}
+    
+    
+  
+    
+@media (min-width:480px){
+  .services{
+    display:flex;
+    
+  }
+  section .services{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.service, .cover{
+  margin-top:5rem;
+padding:2rem;
+background: white;
+}
+.services .service p{
+  margin-top: 2rem;
+  font-size:3rem;
+  line-height: 4rem;
+}
+.services .service h4{
+  margin-top: 1.5rem;
+  font-size: 3rem;
+}
+.servico, .testimony{
+ height:60vh;
+  padding-top:20rem;
+  background:whitesmoke;
+}
+
+.why{
+  padding-top:20rem;
+  background: whitesmoke;
+  height:60vh;
+}
+.whys{
+  display:flex;
+  
+}
+.why-us{
+  margin: 5rem;
+}
+.whys img{
+  width:20rem;
+  height: 200px;
+  margin-top: 20rem;
+}
+.whys li{
+  font-size: 3rem;
+  line-height:40px;
+}
+.coverall{
+  display: flex;
+
+}
+
+.socials img{
+  width:10rem;
+  height:10rem;
+  
+}
+.social{
+  padding-top: 20rem;
+  background: whitesmoke;
+  height:30vh;
+}
+}
